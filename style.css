@@ -326,4 +326,7 @@ footer p {
         font-size: 20px;
         left: -20%;
       }
+   footer p {
+        font-size: 14px;
+      }
 }
