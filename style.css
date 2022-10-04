@@ -6,10 +6,11 @@
   font-family: "Lexend", sans-serif;
   color: white;
 }
-section,footer{
-    overflow: hidden;
-    white-space: wrap;
-    word-break: break-word;
+section,
+footer {
+  overflow: hidden;
+  white-space: wrap;
+  word-break: break-word;
 }
 body {
   background-color: rgba(165, 208, 211, 0.918);
@@ -33,7 +34,6 @@ body {
   align-items: center;
 }
 .container1 .grid2 ul {
-    
   display: flex;
   float: right;
   list-style: none;
@@ -42,8 +42,7 @@ body {
   top: -25%;
 }
 .container1 .grid2 ul li {
-  
-    width: 150px;
+  width: 150px;
   font-size: 30px;
 }
 .container1 .grid2 ul li a {
@@ -201,13 +200,13 @@ body {
   align-items: center;
 }
 .container3 .recom .grid-display .grid-1 h2 {
-    font-size: 30px;
-    color: #980147;
-  }
-  .container3 .recom .grid-display .grid-2 h2 {
-    font-size: 30px;
-    color: #980147;
-  }
+  font-size: 30px;
+  color: #980147;
+}
+.container3 .recom .grid-display .grid-2 h2 {
+  font-size: 30px;
+  color: #980147;
+}
 .container3 .recom .grid-display .grid-2 {
   display: flex;
   flex-direction: column;
@@ -250,83 +249,82 @@ footer p {
     font-size: 25px;
   }
 }
-@media (max-width: 800px){
-    .container2 .first-item img {
-        position: relative;
-        top: 10%;
-      }
-    .container2{
-        flex-direction: column;
-    }
-    .container2 .second-item h2 {
-        left: 0;
-        height: 210px;
-        font-size: 18px;
-        width: 90%;
-      }
-    .container3{
-        flex-direction: column;
-        height: 900px;
-    }
-    .container3 .opening-hrs {
-        height:  500px;
-        width: 95%;
-       
-      }
-    .container3 .recom {
-        margin-right: 0px;
-        height: 500px;
-        width: 90%;
-       margin-bottom: 30px;
-      }
+@media (max-width: 800px) {
+  .container2 .first-item img {
+    position: relative;
+    top: 10%;
+  }
+  .container2 {
+    flex-direction: column;
+  }
+  .container2 .second-item h2 {
+    left: 0;
+    height: 210px;
+    font-size: 18px;
+    width: 90%;
+  }
+  .container3 {
+    flex-direction: column;
+    height: 900px;
+  }
+  .container3 .opening-hrs {
+    height: 500px;
+    width: 95%;
+  }
+  .container3 .recom {
+    margin-right: 0px;
+    height: 500px;
+    width: 90%;
+    margin-bottom: 30px;
+  }
 }
-@media(max-width:639px){
-    .container1 .grid2 ul{
-        display: none;
-    }
-}
-@media(max-width:480px){
-    .container1 .grid1 {
+@media (max-width: 639px) {
+  .container1 .grid2 ul {
     display: none;
-    }
-    .container2{
-        height: 600px;
-    }
-    .container2 .first-item img {
-        position: relative;
-        top: 10%;
-        height: 200px;
-      }
-      .container2 .second-item h2 {
-        left: 0;
-        height: 260px;
-        font-size: 15px;
-        width: 90%;
-        border: none;
-      }
-      .container3 .opening-hrs h1 {
-        font-size: 20px;
-      }
-      .container3 .opening-hrs h3 {
-        font-size: 19px;
-      }
-      .container3 .recom .grid-display .grid-1 img {
-        height: 150px;
-      }
-      .container3 .recom .grid-display .grid-2 img {
-        height: 150px;
-      }
-      .container3 .recom .grid-display .grid-1 h2 {
-        font-size: 20px;
-      }
-      .container3 .recom .grid-display .grid-2 h2 {
-        font-size: 20px;
-      }
-      .container3 .recom h1 {
-        font-size: 20px;
-        left: -20%;
-      }
-   footer p {
-        font-size: 14px;
-      }
+  }
+}
+@media (max-width: 480px) {
+  .container1 .grid1 {
+    display: none;
+  }
+  .container2 {
+    height: 600px;
+  }
+  .container2 .first-item img {
+    position: relative;
+    top: 10%;
+    height: 200px;
+  }
+  .container2 .second-item h2 {
+    left: 0;
+    height: 260px;
+    font-size: 15px;
+    width: 90%;
+    border: none;
+  }
+  .container3 .opening-hrs h1 {
+    font-size: 20px;
+  }
+  .container3 .opening-hrs h3 {
+    font-size: 19px;
+  }
+  .container3 .recom .grid-display .grid-1 img {
+    height: 150px;
+  }
+  .container3 .recom .grid-display .grid-2 img {
+    height: 150px;
+  }
+  .container3 .recom .grid-display .grid-1 h2 {
+    font-size: 20px;
+  }
+  .container3 .recom .grid-display .grid-2 h2 {
+    font-size: 20px;
+  }
+  .container3 .recom h1 {
+    font-size: 20px;
+    left: -20%;
+  }
+  footer p {
+    font-size: 14px;
+  }
 }
